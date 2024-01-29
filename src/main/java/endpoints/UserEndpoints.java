@@ -4,6 +4,7 @@ public enum UserEndpoints {   // нумерация , создаю констр�
 
 
     CREATE_USER ("/v2/user"),
+    GET_USER("/v2/user/"),
     DELETE_USER ("/v2/user/Batman");
 
     private final String endpoints;
